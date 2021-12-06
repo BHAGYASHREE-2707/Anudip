@@ -1,0 +1,21 @@
+﻿// See https://aka.ms/new-console-template for more information
+using System;
+public class Exercise5
+{
+    public static void Main(string[] args)
+    {
+        int number1, number2, temp;
+        Console.Write("\nInput the First Number : ");
+        number1 = int.Parse(Console.ReadLine());
+        Console.Write("\nInput the Second Number : ");
+        number2 = int.Parse(Console.ReadLine());
+        temp = number1;
+        number1 = number2;
+        number2 = temp;
+        Console.Write("\nAfter Swaping : ");
+        Console.Write("\nNmuber1 = " + number1);
+        Console.Write("\nNumber2 = " + number2);
+        Console.Read();
+    }
+}
+
